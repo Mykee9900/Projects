@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="main">
+        <div id="total"><input TYPE="text" ID="screen"></div>
+        <div class="rowOne">
+            <button id="1" onclick="Getnum(1)">1</button>
+            <button id="2" onclick="Getnum(2)">2</button>
+            <button onclick="Getnum(3)">3</button>
+            <button onclick="changeProcess('add')">+</button>
+        </div>
+        <div class="rowTwo">
+            <button onclick="Getnum(4)">4</button>
+            <button onclick="Getnum(5)">5</button>
+            <button onclick="Getnum(6)">6</button>
+            <button onclick="changeProcess('subtract')">-</button>
+        </div>
+        <div class="rowThree">
+            <button onclick="Getnum(7)">7</button>
+            <button onclick="Getnum(8)">8</button>
+            <button onclick="Getnum(9)">9</button>
+            <button onclick="changeProcess('multiply')">*</button>
+        </div>
+        <div class="rowFour">
+            <button onclick="Getnum(0)">0</button>
+            <button onclick="final(process)">=</button>
+            <button onclick="reset()">C</button>
+            <button onclick="changeProcess('divide')">/</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
