@@ -1,0 +1,96 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: skyblue;
+    text-align: center;
+}
+
+nav img {
+    height: 3rem;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+nav a {
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 3rem;
+}
+main {
+    background-color: yellow;
+}
+
+main h3 {
+    padding: 30px;
+    font-size: 2rem;
+}
+
+li {
+    font-size: 2rem;
+    margin-top: 15px;
+}
+
+span {
+    font-size: 2rem;
+}
+
+ul {
+    margin-left: 50px;
+}
+
+.popularSec {
+    display: flex;
+    justify-content: space-around;
+}
+
+.genres h3{
+    text-align: center;
+    margin-top: 30px;
+    border-bottom: solid 5px black;
+}
+.genContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: skyblue;
+}
+
+.footL {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 20px 0 20px 0;
+}
+
+h6 {
+    font-size: 2rem;
+}
+
+.bold {
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-left: 25px;
+}

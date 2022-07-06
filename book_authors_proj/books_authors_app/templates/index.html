@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta name="description" content="A book website to all of your needs">
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Book Lab</title>
+            {% load static %}
+            <link rel="stylesheet" href="{% static '../static/css/index.css' %}">
+            <script defer src="{% static '../static/scripts/script.js' %}"></script>      
+            <link rel="icon" type="image/x-icon" href="{% static '../static/images/bIcon.jpg' %}">
+            <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">    
+            <script src="https://kit.fontawesome.com/869d23ac57.js" crossorigin="anonymous"></script>
+        </head>
+        <body>
+            <nav>
+                <div class="links">
+                    <img src="{% static '../static/images/bIcon.jpg' %}" alt="Company logo of a B">
+                    <a href="/login" target="_blank" id="alert">Login or Sign Up</a>
+                </div>
+                <h1>Book Lab</h1>
+            </nav>
+            <main>
+                <section class="popularSec">
+                    <div>
+                    <h3>Popular Books</h3>
+                    <ul>
+                        {% for book in favbooks %}
+                            {% if book.liked_users.all %}
+                                <li> <span class="bold">Title:</span>{{book.title}}<span class="bold">Description: </span>{{book.description}}</li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                    </div>
+                    <div>
+                        <h3>Popular Authors</h3>
+                        <ul>
+                            {% for author in favAuthor %}
+                                {% if author.liked_users.all %}
+                                    <li><span class="bold">Author:</span>{{author.first_name}}<span class="bold">About: </span>{{author.notes}}</li>
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </section>
+                <section class="genres">
+                    <h3>Our Section</h3>
+                    <div class="genContainer">
+                        <div>
+                            <div>
+                                <span>Horror</span>
+                                {% for book in favbooks %}
+                                    {% if book.genre == 'Horror' %}
+                                        <li><span class="bold">Title:</span>{{book.title}}<span class="bold">Description: </span>{{book.description}}</li>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                            <div>
+                                <span>Fantasy</span>
+                                <ul>
+                                    {% for book in favbooks %}
+                                        {% if book.genre == 'Fantasy' %}
+                                            <li><span class="bold">Title:</span>{{book.title}}<span class="bold">Description: </span>{{book.description}}</li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                            <div>
+                                <span>Comedy</span>
+                                <ul>
+                                    {% for book in favbooks %}
+                                        {% if book.genre == 'Comedy' %}
+                                            <li><span class="bold">Title:</span>{{book.title}}<span class="bold">Description: </span>{{book.description}}</li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <span>News and Magazines</span>
+                            <ul>
+                                {% for book in favbooks %}
+                                    {% if book.form == 'News' or book.form == 'Magazine' %}
+                                        <li><span class="bold">Title:</span>{{book.title}}<span class="bold">Description: </span>{{book.description}}</li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>                            
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <h3>New additions</h3>
+                    <ul>
+                        {% for book in favbooks %}
+                            {% if book.created_at ==  today %}
+                                <li><span class="bold">Title:</span>{{book.title}}<span class="bold">Description: </span>{{book.description}}</li>
+                            {% else %}
+                                {% endif %}
+                                {% endfor %}
+                                <span>There is no new books today :(</span>
+                    </ul>
+                </section>
+            </main>
+            <footer>
+                <h6>Book Lab</h6>
+                <ul>
+                    <a href=""><li class="footL">Facebook</li><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><li class="footL">Twitter</li><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><li class="footL">YouTube</li><i class="fa-brands fa-youtube"></i></a>
+                </ul>
+            </footer>
+        </body>
+    </html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A book website to all of your needs">
+    <title>Book Lab</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static '../static/css/loginPage.css' %}">     
+    <link rel="icon" type="image/x-icon" href="{% static '../static/images/bIcon.jpg' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <nav>
+        <img src="{% static '../static/images/bIcon.jpg' %}" alt="Company logo of a B">
+        <h1>Book Lab</h1>
+    </nav>
+    <main>
+        <section class="logSign">
+            {% if messages %}
+            <ul class="messages">    
+            {% for message in messages %}    
+            <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>    
+            {% endfor %}
+            </ul>
+            {% endif %}
+            <div class="sign">
+                <p>Sign Up</p>
+                <form action="/regist" method="POST">
+                    {% csrf_token %}
+                    <label for="firstN">First Name:</label>
+                    <input type="text" id="firstN" name="firstN" required min="1"><br>
+                    <label for="lastN">Last Name:</label>
+                    <input type="text" id="lastN" name="lastN" required min="1"><br>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required min="8" max="15"><br>
+                    <label for="password">Confirm password</label>
+                    <input type="password" id="passwordC" name="passwordC" required min="8" max="15"><br>
+                    <input id="regSubmit" type="submit" value="submit">
+                </form>
+            </div>
+            <div class="log">
+                <p>Log In</p>
+                <form action="/log" method="POST">
+                    {% csrf_token %}
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required min="8" max="15"><br>
+                    <input id="regSubmit" type="submit" value="submit">
+                </form>
+            </div>
+        </section>
+        <section class="pic">
+            <img class="backGround" src="{% static '../static/images/tom-hermans-9BoqXzEeQqM-unsplash.jpg' %}" alt="background of books">
+        </section>
+    </main>
+    <footer>
+        <p>Copyright 2022. All right reserved</p>
+        <p>Book Lab</p>
+    </footer>
+    <script src="{% static '../static/scripts/script.js' %}"></script>  
+</body>
+</html>

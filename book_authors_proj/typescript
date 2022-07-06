@@ -1,0 +1,929 @@
+Script started on Tue Jul  5 20:41:11 2022
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/Bootcamp/book_authors_proj[0m[27m[24m[JMikeeee@Mykees-MBP book_authors_proj % [K[?2004hnnpm test[?2004l
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Missing script: "test"
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m To see a list of scripts, run:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m   npm run
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /Users/Mikeeee/.npm/_logs/2022-07-06T02_43_53_995Z-debug-0.log
+[0m[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/Bootcamp/book_authors_proj[0m[27m[24m[JMikeeee@Mykees-MBP book_authors_proj % [K[?2004hnnpm run[?2004l
+[1mScripts[22m available in [32mbook_authors_proj@1.0.0[39m via `[34mnpm run-script[39m`:
+  scripts
+    [2mscript[22m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/Bootcamp/book_authors_proj[0m[27m[24m[JMikeeee@Mykees-MBP book_authors_proj % [K[?2004hppython manage, .py migrate[?2004l
+System check identified some issues:
+
+WARNINGS:
+[33;1mbooks_authors_app.Author: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the BooksAuthorsAppConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.[0m
+[33;1mbooks_authors_app.Book: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the BooksAuthorsAppConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.[0m
+[33;1mbooks_authors_app.Users: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the BooksAuthorsAppConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.[0m
+[36;1mOperations to perform:[0m
+[1m  Apply all migrations: [0madmin, auth, books_authors_app, contenttypes, sessions
+[36;1mRunning migrations:[0m
+  No migrations to apply.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/Bootcamp/book_authors_proj[0m[27m[24m[JMikeeee@Mykees-MBP book_authors_proj % [K[?2004hnnpm test[?2004l
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Missing script: "test"
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m To see a list of scripts, run:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m   npm run
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /Users/Mikeeee/.npm/_logs/2022-07-06T02_45_21_355Z-debug-0.log
+[0m[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/Bootcamp/book_authors_proj[0m[27m[24m[JMikeeee@Mykees-MBP book_authors_proj % [K[?2004hnnpm test[?2004l
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Missing script: "test"
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m To see a list of scripts, run:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m   npm run
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be [?2004l
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Missing script: "test"
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m To see a list of scripts, run:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m   npm run
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnnpm test[?2004l
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Missing script: "test"
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m To see a list of scripts, run:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m   npm run
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /Users/Mikeeee/.npm/_logs/2022-07-06T02_46_23_612Z-debug-0.log
+[0m[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/Bootcamp/book_authors_proj[0m[27m[24m[JMikeeee@Mykees-MBP book_authors_proj % [K[?2004hnnpm run[?2004l
+[1mScripts[22m available in [32mbook_authors_proj@1.0.0[39m via `[34mnpm run-script[39m`:
+  scripts
+    [2mscript[22m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/Bootcamp/book_authors_proj[0m[27m[24m[JMikeeee@Mykees-MBP book_authors_proj % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/Bootcamp[0m[27m[24m[JMikeeee@Mykees-MBP Bootcamp % [K[?2004hlls[?2004l
+CoursesProj			book_authors_proj
+EliasAssignmentBankAccount	displayBlocks
+EliasAssignmentUser		dissapearing
+EliasChainingMethods		favBooks
+EliasFunctions_Intermediate2	firstDjangoProject
+Elias_pythonLoops		functions
+Final_proj			loginRegist
+Flores_Elias_Exam		modernize
+Pip_assignment			ninjaCat 2
+Quotes				ninjaGoldProj
+SemiTvShows			social
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/Bootcamp[0m[27m[24m[JMikeeee@Mykees-MBP Bootcamp % [K[?2004hccd ..[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech[0m[27m[24m[JMikeeee@Mykees-MBP Tech % [K[?2004hlls[?2004l
+Bootcamp	GitProj		IT		SideProjects
+CodingPractices	GithubSite	Notes		environments
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech[0m[27m[24m[JMikeeee@Mykees-MBP Tech % [K[?2004hccd GitProj[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hlls[?2004l
+Calculator		affirmGen		book_authors_proj
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit init[?2004l
+Reinitialized existing Git repository in /Users/Mikeeee/Desktop/Tech/GitProj/.git/
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hlls[?2004l
+Calculator		affirmGen		book_authors_proj
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.DS_Store[m
+	[31mCalculator/.DS_Store[m
+	[31mbook_authors_proj/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hrrm .DS_Store[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mCalculator/.DS_Store[m
+	[31mbook_authors_proj/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hrrm Calculator/.DS_Store[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit statis  us[?2004l
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in Calculator/.DS_Store[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit statis  us[?2004l
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mbook_authors_proj/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   book_authors_proj/.DS_Store[m
+	[32mnew file:   book_authors_proj/book_authors_proj/.DS_Store[m
+	[32mnew file:   book_authors_proj/book_authors_proj/.env[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__init__.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/settings.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/settings.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/urls.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/urls.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/wsgi.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/settings.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/urls.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/wsgi.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/__init__.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/admin.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/admin.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/apps.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/models.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/models.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/urls.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/urls.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/views.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/views.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/admin.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/apps.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0001_initial.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0002_author_notes.py[m
+	[32mnew [32mnew file:   book_authors_proj/books_authors_app/migrations/__init__.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0003_users.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0004_book_liked_users.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0005_author_liked_users.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0006_book_form_book_genre.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/models.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/home.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/index.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/loginPage.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/bIcon.jpg[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/tom-hermans-9BoqXzEeQqM-unsplash.jpg[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/scripts/script.js[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/home.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/index.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/loginPage.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/tests.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/urls.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/views.py[m
+	[32mnew file:   book_authors_proj/db.sqlite3[m
+	[32mnew file:   book_authors_proj/manage.py[m
+	[32mnew file:   book_authors_proj/package.json[m
+	[32mnew file:   book_authors_proj/typescript[m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit rm [7m book_authors_proj/.DS_Store[27m[28D[27m [27mb[27mo[27mo[27mk[27m_[27ma[27mu[27mt[27mh[27mo[27mr[27ms[27m_[27mp[27mr[27mo[27mj[27m/[27m.[27mD[27mS[27m_[27mS[27mt[27mo[27mr[27me[?2004l
+error: the following file has changes staged in the index:
+    book_authors_proj/.DS_Store
+(use --cached to keep the file, or -f to force removal)
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit rm [7m book_authors_proj/.DS_Store[27m[28D[27m [27mb[27mo[27mo[27mk[27m_[27ma[27mu[27mt[27mh[27mo[27mr[27ms[27m_[27mp[27mr[27mo[27mj[27m/[27m.[27mD[27mS[27m_[27mS[27mt[27mo[27mr[27me -f[?2004l
+rm 'book_authors_proj/.DS_Store'
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit rm [7mbook_authors_proj/book_authors_proj/.DS_Stor[7me[27m[K[A[35C[27mb[27mo[27mo[27mk[27m_[27ma[27mu[27mt[27mh[27mo[27mr[27ms[27m_[27mp[27mr[27mo[27mj[27m/[27mb[27mo[27mo[27mk[27m_[27ma[27mu[27mt[27mh[27mo[27mr[27ms[27m_[27mp[27mr[27mo[27mj[27m/[27m.[27mD[27mS[27m_[27mS[27mt[27mo[27mre[1C-f[?2004l
+rm 'book_authors_proj/book_authors_proj/.DS_Store'
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   book_authors_proj/book_authors_proj/.env[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__init__.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   b status[?2004l
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   book_authors_proj/book_authors_proj/.env[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__init__.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/settings.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/settings.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/urls.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/urls.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/wsgi.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/settings.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/urls.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/wsgi.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/__init__.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/admin.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/admin.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/apps.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/models.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/models.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/urls.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/urls.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/views.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/views.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/admin.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/apps.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0001_initial.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0002_author_notes.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0003_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0004_book_liked_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0005_author_liked_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0006_book_form_book_genre.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__init__.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0003_users.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0004_book_liked_u-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/models.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/home.css[m
+	[32mnew file:   ython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/models.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/home.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/index.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/loginPage.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/bIcon.jpg[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/tom-hermans-9BoqXzEeQqM-unsplash.jpg[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/scripts/script.js[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/home.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/index.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/loginPage.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/tests.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/urls.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/views.py[m
+	[32mnew file:   book_authors_proj/db.sqlite3[m
+	[32mnew file:   book_authors_proj/manage.py[m
+	[32mnew file:   book_authors_proj/package.json[m
+	[32mnew file:   book_authors_proj/typescript[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   book_authors_proj/typescript[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.DS_Store[m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   .DS_Store[m
+	[32mnew file:   book_authors_proj/book_authors_proj/.env[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__init__.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/settings.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/settings.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/urls.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/urls.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/wsgi.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/settings.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/urls.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/wsgi.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/__init__.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/che__/models.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/models.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/urls.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/urls.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/views.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/views.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/admin.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/apps.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0001_initial.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0002_author_notes.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0003_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0004_book_liked_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0005_author_liked_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0006_book_form_book_genre.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__init__.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0003_users.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0004_book_liked_users.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0005_author_liked_users.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0006_book_form_book_genre.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/models.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/home.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/index.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/loginPage.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/bIcon.jpg[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/tom-hermans-9BoqXzEeQqM-unsplash.jpg[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/scripts/script.js[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/home.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/index.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/loginPage.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/tests.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/urls.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/views.py[m
+	[32mnew file:   book_authors_proj/db.sqlite3[m
+	[32mnew file:   book_authors_proj/manage.py[m
+	[32mnew file:   book_authors_proj/package.json[m
+	[32mnew file:   book_authors_proj/typescript[m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit rm .DS_Store[?2004l
+error: the following file has changes staged in the index:
+    .DS_Store
+(use --cached to keep the file, or -f to force removal)
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit rm .DS_Store -f[?2004l
+rm '.DS_Store'
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit rm [7m book_authors_proj/books_authors_app/.DS_Sto[7mr[7me[27m[K[A[34C[27m [27mb[27mo[27mo[27mk[27m_[27ma[27mu[27mt[27mh[27mo[27mr[27ms[27m_[27mp[27mr[27mo[27mj[27m/[27mb[27mo[27mo[27mk[27ms[27m_[27ma[27mu[27mt[27mh[27mo[27mr[27ms[27m_[27ma[27mp[27mp[27m/[27m.[27mD[27mS[27m_[27mS[27mt[27mor[27me[1C-f[?2004l
+rm 'book_authors_proj/books_authors_app/.DS_Store'
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   book_authors_proj/book_authors_proj/.env[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__init__.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/settings.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/settings.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/urls.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/urls.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/wsgi.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/settings.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/urls.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/wsgi.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/__init__.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/admin.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/admin.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/apps.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/models.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/models.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/urls.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/urls.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/views.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/views.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/admin.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/apps.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0001_initial.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0002_author_notes.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0003_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0004_book_liked_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0005_author_liked_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0006_book_form_book_genre.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__init__.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0003_users.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0004_book_liked_users.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0005_author_liked_users.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0006_book_form_book_genre.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/models.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/home.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/index.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/loginPage.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/bIcon.jpg[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/tom-hermans-9BoqXzEeQqM-unsplash.jpg[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/scripts/script.js[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/home.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/index.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/loginPage.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/tests.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/urls.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/views.py[m
+	[32mnew file:   book_authors_proj/db.sqlite3[m
+	[32mnew file:   book_authors_proj/manage.py[m
+	[32mnew file:   book_authors_proj/package.json[m
+	[32mnew file:   book_authors_proj/typescript[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   book_authors_proj/typescript[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.DS_Store[m
+	[31mbook_authors_proj/.DS_Store[m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit rm .DS_So tore -f[?2004l
+rm '.DS_Store'
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit git rm [7mbook_authors_proj/books_authors_app/migr[7ma[7mtions/.DS_Store[27m[K[A[24C[27mb[27mo[27mo[27mk[27m_[27ma[27mu[27mt[27mh[27mo[27mr[27ms[27m_[27mp[27mr[27mo[27mj[27m/[27mb[27mo[27mo[27mk[27ms[27m_[27ma[27mu[27mt[27mh[27mo[27mr[27ms[27m_[27ma[27mp[27mp[27m/[27mm[27mi[27mg[27mra[27mt[27mi[27mo[27mn[27ms[27m/[27m.[27mD[27mS[27m_[27mS[27mt[27mo[27mr[27me -f[?2004l
+git: 'git' is not a git command. See 'git --help'.
+
+The most similar command is
+	init
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggtg git rm [7mbook_authors_proj/books_authors_app/static/i[7mm[7mages/.DS_Store[27m[K[A[21C[27mb[27mo[27mo[27mk[27m_[27ma[27mu[27mt[27mh[27mo[27mr[27ms[27m_[27mp[27mr[27mo[27mj[27m/[27mb[27mo[27mo[27mk[27ms[27m_[27ma[27mu[27mt[27mh[27mo[27mr[27ms[27m_[27ma[27mp[27mp[27m/[27ms[27mt[27ma[27mt[27mi[27mc[27m/[27mim[27ma[27mg[27me[27ms[27m/[27m.[27mD[27mS[27m_[27mS[27mt[27mo[27mr[27me -f[?2004l
+rm 'book_authors_proj/books_authors_app/static/images/.DS_Store'
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   book_authors_proj/.DS_Store[m
+	[32mnew file:   book_authors_proj/book_authors_proj/.env[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__init__.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/settings.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/settings.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/urls.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/urls.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/wsgi.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/settings.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/urls.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/wsgi.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/__init__.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/admin.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/admin.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/apps.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/models.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/models.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/urls.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/urls.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/views.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/views.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/admin.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/apps.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0001_initial.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0002_author_notes.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0003_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0004_book_liked_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0005_author_liked_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0006_book_form_book_genre.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__init__.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0003_users.cpython-310.pyc[m
+	tial.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0003_users.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0004_book_liked_users.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0005_author_liked_users.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0006_book_form_book_genre.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/models.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/home.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/index.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/loginPage.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/bIcon.jpg[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/tom-hermans-9BoqXzEeQqM-unsplash.jpg[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/scripts/script.js[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/home.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/index.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/loginPage.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/tests.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/urls.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/views.py[m
+	[32mnew file:   book_authors_proj/db.sqlite3[m
+	[32mnew file:   book_authors_proj/manage.py[m
+	[32mnew file:   book_authors_proj/package.json[m
+	[32mnew file:   book_authors_proj/typescript[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   book_authors_proj/.DS_Store[m
+	[31mmodified:   book_authors_proj/books_authors_app/.DS_Store[m
+	[31mmodified:   book_authors_proj/books_authors_app/static/.DS_Store[m
+	[31mmodified:   book_authors_proj/typescript[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.DS_Store[m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   .DS_Store[m
+	[32mnew file:   book_authors_proj/.DS_Store[m
+	[32mnew file:   book_authors_proj/book_authors_proj/.env[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__init__.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/__init__.cpyurls.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/wsgi.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/settings.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/urls.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/wsgi.py[m
+	[32mnew file:   book_authors_proj/books_auturls.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/wsgi.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/settings.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/urls.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/wsgi.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/__init__.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/admin.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/admin.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/apps.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/models.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/models.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/urls.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/urls.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/views.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/views.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/admin.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/apps.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0001_initial.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0002_author_notes.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0003_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0004_book_liked_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0005_author_liked_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0006_book_form_book_genre.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__init__.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0003_users.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0004_book_liked_users.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0005_author_liked_users.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0006_book_form_book_genre.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/models.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/home.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/index.css[m32mnew file:   book_authors_proj/books_authors_app/templates/home.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/index.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/loginPage.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/tests.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/urls.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/views.py[m
+	[32mnew file:   book_authors_proj/db.sqlite3[m
+	[32mnew file:   book_authors_proj/manage.py[m
+	[32mnew file:   book_authors_proj/package.json[m
+	[32mnew file:   book_authors_proj/typescript[m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004heecho .DS_Store >> ~/.gitignore_global[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit config --global core.excludesfile ~/.gitignore_ [Kgglobal[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004heecho echo    Python      .o py     e  ggit status[?2004l
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   .DS_Store[m
+	[32mnew file:   book_authors_proj/.DS_Store[m
+	[32mnew file:   book_authors_proj/book_authors_proj/.env[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__init__.py[m
+	     e  ggit status[?2004l
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   .DS_Store[m
+	[32mnew file:   book_authors_proj/.DS_Store[m
+	[32mnew file:   book_authors_proj/book_authors_proj/.env[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__init__.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/settings.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/settings.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/urls.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/urls.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/wsgi.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/settings.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/urls.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/wsgi.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/__init__.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/admin.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/admin.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/apps.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/models.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/models.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/urls.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/urls.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/views.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/views.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/admin.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/apps.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0001_initial.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0002_author_notes.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0003_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0004_book_liked_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0005_author_liked_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0006_book_form_book_genre.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__init__.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0003_users.cppython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/models.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/statenre.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/models.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/home.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/index.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/loginPage.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/bIcon.jpg[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/tom-hermans-9BoqXzEeQqM-unsplash.jpg[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/scripts/script.js[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/home.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/index.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/loginPage.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/tests.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/urls.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/views.py[m
+	[32mnew file:   book_authors_proj/db.sqlite3[m
+	[32mnew file:   book_authors_proj/manage.py[m
+	[32mnew file:   book_authors_proj/package.json[m
+	[32mnew file:   book_authors_proj/typescript[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   book_authors_proj/typescript[m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   .DS_Store[m
+	[32mnew file:   book_authors_proj/.DS_Store[m
+	[32mnew file:   book_authors_proj/book_authors_proj/.env[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__init__.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/settings.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/settings.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/urls.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/urls.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/wsgi.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/settings.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/urls.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/wsgi.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/__init__.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/__init__.cpython-36.pyc[myc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/models.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/urls.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/urls.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/views.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/views.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/admin.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/apps.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0001_initial.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0002_author_notes.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0003_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0004_book_liked_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0005_author_liked_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0006_book_form_book_genre.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__init__.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0003_users.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0004_book_liked_users.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0005_author_liked_users.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0006_book_form_book_genre.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/models.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/home.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/index.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/loginPage.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/bIcon.jpg[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/tom-hermans-9BoqXzEeQqM-unsplash.jpg[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/scripts/script.js[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/home.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/index.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/loginPage.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/tests.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/urls.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/views.py[m
+	[32mnew file:   book_authors_proj/db.sqlite3[m
+	[32mnew file:   book_authors_proj/manage.py[m
+	[32mnew file:   book_authors_proj/package.json[m
+	[32mnew file:   book_authors_proj/typescript[m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit commit -m "Adding new python project"[?2004l
+[master a7d00a3] Adding new python project
+ 65 files changed, 1729 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 book_authors_proj/.DS_Store
+ create mode 100644 book_authors_proj/book_authors_proj/.env
+ create mode 100755 book_authors_proj/book_authors_proj/__init__.py
+ create mode 100644 book_authors_proj/boo python project"[?2004l
+[master a7d00a3] Adding new python project
+ 65 files changed, 1729 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 book_authors_proj/.DS_Store
+ create mode 100644 book_authors_proj/book_authors_proj/.env
+ create mode 100755 book_authors_proj/book_authors_proj/__init__.py
+ create mode 100644 book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-310.pyc
+ create mode 100755 book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 book_authors_proj/book_authors_proj/__pycache__/settings.cpython-310.pyc
+ create mode 100755 book_authors_proj/book_authors_proj/__pycache__/settings.cpython-36.pyc
+ create mode 100644 book_authors_proj/book_authors_proj/__pycache__/urls.cpython-310.pyc
+ create mode 100755 book_authors_proj/book_authors_proj/__pycache__/urls.cpython-36.pyc
+ create mode 100644 book_authors_proj/book_authors_proj/__pycache__/wsgi.cpython-310.pyc
+ create mode 100755 book_authors_proj/book_authors_proj/settings.py
+ create mode 100755 book_authors_proj/book_authors_proj/urls.py
+ create mode 100755 book_authors_proj/book_authors_proj/wsgi.py
+ create mode 100644 book_authors_proj/books_authors_app/.DS_Store
+ create mode 100755 book_authors_proj/books_authors_app/__init__.py
+ create mode 100644 book_authors_proj/books_authors_app/__pycache__/__init__.cpython-310.pyc
+ create mode 100755 book_authors_proj/books_authors_app/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 book_authors_proj/books_authors_app/__pycache__/admin.cpython-310.pyc
+ create mode 100755 book_authors_proj/books_authors_app/__pycache__/admin.cpython-36.pyc
+ create mode 100644 book_authors_proj/books_authors_app/__pycache__/apps.cpython-310.pyc
+ create mode 100644 book_authors_proj/books_authors_app/__pycache__/models.cpython-310.pyc
+ create mode 100755 book_authors_proj/books_authors_app/__pycache__/models.cpython-36.pyc
+ create mode 100644 book_authors_proj/books_authors_app/__pycache__/urls.cpython-310.pyc
+ create mode 100755 book_authors_proj/books_authors_app/__pycache__/urls.cpython-36.pyc
+ create mode 100644 book_authors_proj/books_authors_app/__pycache__/views.cpython-310.pyc
+ create mode 100755 book_authors_proj/books_authors_app/__pycache__/views.cpython-36.pyc
+ create mode 100755 book_authors_proj/books_authors_app/admin.py
+ create mode 100755 book_authors_proj/books_authors_app/apps.py
+ create mode 100644 book_authors_proj/books_authors_app/migrations/.DS_Store
+ create mode 100755 book_authors_proj/books_authors_app/migrations/0001_initial.py
+ create mode 100755 book_authors_proj/books_authors_app/migrations/0002_author_notes.py
+ create mode 100644 book_authors_proj/books_authors_app/migrations/0003_users.py
+ create mode 100644 book_authors_proj/books_authors_app/migrations/0004_book_liked_users.py
+ create mode 100644 book_authors_proj/books_authors_app/migrations/0005_author_liked_users.py
+ create mode 100644 book_authors_proj/books_authors_app/migrations/0006_book_form_book_genre.py
+ create mode 100755 book_authors_proj/books_authors_app/migrations/__init__.py
+ create mode 100644 book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-310.pyc
+ create mode 100755 book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-36.pyc
+ create mode 100644 book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-310.pyc
+ create mode 100755 book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-36.pyc
+ create mode 100644 book_authors_proj/books_authors_app/migrations/__pycache__/0003_users.cpython-310.pyc
+ create mode 100644 book_authors_proj/books_authors_appigrations/__pycache__/__init__.cpython-310.pyc
+ create mode 100755 book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-36.pyc
+ create mode 100755 book_authors_proj/books_authors_app/models.py
+ create mode 100644 book_authors_proj/books_authors_app/static/.DS_Store
+ create mode 100644 book_authors_proj/books_authors_app/static/css/home.css
+ create mode 100644 book_authors_proj/books_authors_app/static/css/index.css
+ create mode 100644 book_authors_proj/books_authors_app/static/css/loginPage.css
+ create mode 100644 book_authors_proj/books_authors_app/static/images/bIcon.jpg
+ create mode 100644 book_authors_proj/books_authors_app/static/images/tom-hermans-9BoqXzEeQqM-unsplash.jpg
+ create mode 100644 book_authors_proj/books_authors_app/static/scripts/script.js
+ create mode 100644 book_authors_proj/books_authors_app/templates/home.html
+ create mode 100644 book_authors_proj/books_authors_app/templates/index.html
+ create mode 100644 book_authors_proj/books_authors_app/templates/loginPage.html
+ create mode 100755 book_authors_proj/books_authors_app/tests.py
+ create mode 100755 book_authors_proj/books_authors_app/urls.py
+ create mode 100755 book_authors_proj/books_authors_app/views.py
+ create mode 100755 book_authors_proj/db.sqlite3
+ create mode 100755 book_authors_proj/manage.py
+ create mode 100644 book_authors_proj/package.json
+ create mode 100644 book_authors_proj/typescript
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   book_authors_proj/typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   book_authors_proj/typescript[m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit commit -m "made some modifications"[?2004l
+[master 5a9141a] made some modifications
+ 1 file changed, 151 insertions(+), 1 deletion(-)
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   book_authors_proj/typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .DS_Store[m
+	[31mmodified:   book_authors_proj/typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit commit -m "made somne   e modifications"[?2004l
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .DS_Store[m
+	[31mmodified:   book_authors_proj/typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .DS_Store[m
+	[31mmodified:   book_authors_proj/typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   .DS_Store[m
+	[32mmodified:   book_authors_proj/typescript[m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit commit -m "made some mo  changes to project"[?2004l
+[master 6d4c43f] made some changes to project
+ 2 files changed, 59 insertions(+), 4 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   book_authors_proj/typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit commit -a[?2004l
+hint: Waiting for your editor to close the file... [?1049h[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[24;1H"~/Desktop/Tech/GitProj/.git/COMMIT_EDITMSG" 8L, 229B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H# Please enter the commit message for your changes. Lines starting[2;67H[K[3;1H# with '#' will be ignored, and an empty message aborts the commit.[3;68H[K[4;1H#
+# On branch master
+# Changes to be committed:
+#[7Cmodified:   book_authors_proj/typescript
+#
+[94m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+
+
+
+[m# [?25l[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m".git/COMMIT_EDITMSG" 8L, 229B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[KAborting commit due to empty commit message.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit commit -a[?2004l
+hint: Waiting for your editor to close the file... [?1049h[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[24;1H"~/Desktop/Tech/GitProj/.git/COMMIT_EDITMSG" 8L, 229B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H# Please enter the commit message for your changes. Lines starting[2;67H[K[3;1H# with '#' will be ignored, and an empty message aborts the commit.[3;68H[K[4;1H#
+# On branch master
+# Changes to be committed:
+#[7Cmodified:   book_authors_proj/typescript
+#
+[94m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+[?25l[m[24;1H[97m[41mE78: Unknown mark[m[24;18H[K[2;1H[?25h
+[2;66H
+# w[?25ls[?25h[9C[?25ls[?25hsl[?25l[24;1H[1m-- INSERT --[m[24;13H[K[3;15H[?25h[?25ltl be ignored, and an empty message aborts the commit.[3;16H[?25h[?25l:l be ignored, and an empty message aborts the commit.[3;17H[?25h[?25lwl be ignored, and an empty message aborts the commit.[3;18H[?25h[?25lql be ignored, and an empty message aborts the commit.[3;19H[?25h[?25l[4;23r[4;1H[L[1;24r[3;19H[K[4;1Hl be ignored, and an empty message aborts the commit.[?25h[?25l[5;23r[5;1H[L[1;24r[4;1H[K[5;1Hl be ignored, and an empty message aborts the commit.[?25h[?25lfl be ignored, and an empty message aborts the commit.f[?25h[?25lil be ignored, and an empty message aborts the commit.fi[?25h[?25lrl be ignored, and an empty message aborts the commit.fir[?25h[?25lsl be ignored, and an empty message aborts the commit.firs[?25h[?25ltl be ignored, and an empty message aborts the commit.first[?25h[?25l l be ignored, and an empty message aborts the commit.[5;7H[?25h[?25lcl be ignored, and an empty message aborts the commit.[5;8H[?25h[?25lol be ignored, and an empty message aborts the commit.[5;9H[?25h[?25lml be ignored, and an empty message aborts the commit.[5;10H[?25h[?25lml be ignored, and an empty message aborts the commit.[5;11H[?25h[?25lil be ignored, and an empty message aborts the commit.[5;12H[?25h[?25ltl be ignored, and an empty message aborts the commit.[5;13H[?25h[?25l:l be ignored, and an empty message aborts the commit.[5;14H[?25h[?25ll be ignored, and an empty message aborts the commit.[5;66H[K[5;13H[?25h[24;1H[K[5;12H[?25l[?25h[?25l[24;1H:[?25hwq[?25l[?2004l[>4;m".git/COMMIT_EDITMSG" 10L, 247B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049lerror: There was a problem with the editor 'vi'.
+Please supply the message using either -m or -F option.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   book_authors_proj/typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004horking directory)
+	[31mmodified:   book_authors_proj/typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004h
