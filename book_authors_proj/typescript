@@ -797,7 +797,62 @@ Changes to be committed:
  create mode 100644 book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-310.pyc
  create mode 100755 book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-36.pyc
  create mode 100644 book_authors_proj/books_authors_app/migrations/__pycache__/0003_users.cpython-310.pyc
- create mode 100644 book_authors_proj/books_authors_app/migrations/__pycache__/0004_book_liked_users.cpython-310.pyc
- create mode 100644 book_authors_proj/books_authors_app/migrations/__pycache__/0005_author_liked_users.cpython-310.pyc
- create mode 100644 book_authors_proj/books_authors_app/migrations/__pycache__/0006_book_form_book_genre.cpython-310.pyc
- create mode 100644 book_authors_proj/books_authors_app/
+ create mode 100644 book_authors_proj/books_authors_appigrations/__pycache__/__init__.cpython-310.pyc
+ create mode 100755 book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-36.pyc
+ create mode 100755 book_authors_proj/books_authors_app/models.py
+ create mode 100644 book_authors_proj/books_authors_app/static/.DS_Store
+ create mode 100644 book_authors_proj/books_authors_app/static/css/home.css
+ create mode 100644 book_authors_proj/books_authors_app/static/css/index.css
+ create mode 100644 book_authors_proj/books_authors_app/static/css/loginPage.css
+ create mode 100644 book_authors_proj/books_authors_app/static/images/bIcon.jpg
+ create mode 100644 book_authors_proj/books_authors_app/static/images/tom-hermans-9BoqXzEeQqM-unsplash.jpg
+ create mode 100644 book_authors_proj/books_authors_app/static/scripts/script.js
+ create mode 100644 book_authors_proj/books_authors_app/templates/home.html
+ create mode 100644 book_authors_proj/books_authors_app/templates/index.html
+ create mode 100644 book_authors_proj/books_authors_app/templates/loginPage.html
+ create mode 100755 book_authors_proj/books_authors_app/tests.py
+ create mode 100755 book_authors_proj/books_authors_app/urls.py
+ create mode 100755 book_authors_proj/books_authors_app/views.py
+ create mode 100755 book_authors_proj/db.sqlite3
+ create mode 100755 book_authors_proj/manage.py
+ create mode 100644 book_authors_proj/package.json
+ create mode 100644 book_authors_proj/typescript
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   book_authors_proj/typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   book_authors_proj/typescript[m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit commit -m "made some modifications"[?2004l
+[master 5a9141a] made some modifications
+ 1 file changed, 151 insertions(+), 1 deletion(-)
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   book_authors_proj/typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .DS_Store[m
+	[31mmodified:   book_authors_proj/typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit commit -m "made somne   e book_authors_proj/typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit commit -m "made somne 
