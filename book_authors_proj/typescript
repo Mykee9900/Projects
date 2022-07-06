@@ -647,7 +647,157 @@ Changes to be committed:
 	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-36.pyc[m
 	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-310.pyc[m
 	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0003_users.cppython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/models.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/statenre.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/models.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/home.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/index.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/loginPage.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/bIcon.jpg[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/tom-hermans-9BoqXzEeQqM-unsplash.jpg[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/scripts/script.js[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/home.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/index.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/loginPage.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/tests.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/urls.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/views.py[m
+	[32mnew file:   book_authors_proj/db.sqlite3[m
+	[32mnew file:   book_authors_proj/manage.py[m
+	[32mnew file:   book_authors_proj/package.json[m
+	[32mnew file:   book_authors_proj/typescript[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   book_authors_proj/typescript[m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   .DS_Store[m
+	[32mnew file:   book_authors_proj/.DS_Store[m
+	[32mnew file:   book_authors_proj/book_authors_proj/.env[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__init__.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/settings.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/settings.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/urls.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/urls.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/__pycache__/wsgi.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/book_authors_proj/settings.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/urls.py[m
+	[32mnew file:   book_authors_proj/book_authors_proj/wsgi.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/__init__.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/__init__.cpython-36.pyc[myc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/models.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/urls.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/urls.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/views.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/__pycache__/views.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/admin.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/apps.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0001_initial.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0002_author_notes.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0003_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0004_book_liked_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0005_author_liked_users.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/0006_book_form_book_genre.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__init__.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-36.pyc[m
 	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0003_users.cpython-310.pyc[m
 	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0004_book_liked_users.cpython-310.pyc[m
 	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0005_author_liked_users.cpython-310.pyc[m
-	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0006_book_form_book_g
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/0006_book_form_book_genre.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-310.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/migrations/__pycache__/__init__.cpython-36.pyc[m
+	[32mnew file:   book_authors_proj/books_authors_app/models.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/.DS_Store[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/home.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/index.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/css/loginPage.css[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/bIcon.jpg[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/images/tom-hermans-9BoqXzEeQqM-unsplash.jpg[m
+	[32mnew file:   book_authors_proj/books_authors_app/static/scripts/script.js[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/home.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/index.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/templates/loginPage.html[m
+	[32mnew file:   book_authors_proj/books_authors_app/tests.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/urls.py[m
+	[32mnew file:   book_authors_proj/books_authors_app/views.py[m
+	[32mnew file:   book_authors_proj/db.sqlite3[m
+	[32mnew file:   book_authors_proj/manage.py[m
+	[32mnew file:   book_authors_proj/package.json[m
+	[32mnew file:   book_authors_proj/typescript[m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit commit -m "Adding new python project"[?2004l
+[master a7d00a3] Adding new python project
+ 65 files changed, 1729 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 book_authors_proj/.DS_Store
+ create mode 100644 book_authors_proj/book_authors_proj/.env
+ create mode 100755 book_authors_proj/book_authors_proj/__init__.py
+ create mode 100644 book_authors_proj/boo python project"[?2004l
+[master a7d00a3] Adding new python project
+ 65 files changed, 1729 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 book_authors_proj/.DS_Store
+ create mode 100644 book_authors_proj/book_authors_proj/.env
+ create mode 100755 book_authors_proj/book_authors_proj/__init__.py
+ create mode 100644 book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-310.pyc
+ create mode 100755 book_authors_proj/book_authors_proj/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 book_authors_proj/book_authors_proj/__pycache__/settings.cpython-310.pyc
+ create mode 100755 book_authors_proj/book_authors_proj/__pycache__/settings.cpython-36.pyc
+ create mode 100644 book_authors_proj/book_authors_proj/__pycache__/urls.cpython-310.pyc
+ create mode 100755 book_authors_proj/book_authors_proj/__pycache__/urls.cpython-36.pyc
+ create mode 100644 book_authors_proj/book_authors_proj/__pycache__/wsgi.cpython-310.pyc
+ create mode 100755 book_authors_proj/book_authors_proj/settings.py
+ create mode 100755 book_authors_proj/book_authors_proj/urls.py
+ create mode 100755 book_authors_proj/book_authors_proj/wsgi.py
+ create mode 100644 book_authors_proj/books_authors_app/.DS_Store
+ create mode 100755 book_authors_proj/books_authors_app/__init__.py
+ create mode 100644 book_authors_proj/books_authors_app/__pycache__/__init__.cpython-310.pyc
+ create mode 100755 book_authors_proj/books_authors_app/__pycache__/__init__.cpython-36.pyc
+ create mode 100644 book_authors_proj/books_authors_app/__pycache__/admin.cpython-310.pyc
+ create mode 100755 book_authors_proj/books_authors_app/__pycache__/admin.cpython-36.pyc
+ create mode 100644 book_authors_proj/books_authors_app/__pycache__/apps.cpython-310.pyc
+ create mode 100644 book_authors_proj/books_authors_app/__pycache__/models.cpython-310.pyc
+ create mode 100755 book_authors_proj/books_authors_app/__pycache__/models.cpython-36.pyc
+ create mode 100644 book_authors_proj/books_authors_app/__pycache__/urls.cpython-310.pyc
+ create mode 100755 book_authors_proj/books_authors_app/__pycache__/urls.cpython-36.pyc
+ create mode 100644 book_authors_proj/books_authors_app/__pycache__/views.cpython-310.pyc
+ create mode 100755 book_authors_proj/books_authors_app/__pycache__/views.cpython-36.pyc
+ create mode 100755 book_authors_proj/books_authors_app/admin.py
+ create mode 100755 book_authors_proj/books_authors_app/apps.py
+ create mode 100644 book_authors_proj/books_authors_app/migrations/.DS_Store
+ create mode 100755 book_authors_proj/books_authors_app/migrations/0001_initial.py
+ create mode 100755 book_authors_proj/books_authors_app/migrations/0002_author_notes.py
+ create mode 100644 book_authors_proj/books_authors_app/migrations/0003_users.py
+ create mode 100644 book_authors_proj/books_authors_app/migrations/0004_book_liked_users.py
+ create mode 100644 book_authors_proj/books_authors_app/migrations/0005_author_liked_users.py
+ create mode 100644 book_authors_proj/books_authors_app/migrations/0006_book_form_book_genre.py
+ create mode 100755 book_authors_proj/books_authors_app/migrations/__init__.py
+ create mode 100644 book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-310.pyc
+ create mode 100755 book_authors_proj/books_authors_app/migrations/__pycache__/0001_initial.cpython-36.pyc
+ create mode 100644 book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-310.pyc
+ create mode 100755 book_authors_proj/books_authors_app/migrations/__pycache__/0002_author_notes.cpython-36.pyc
+ create mode 100644 book_authors_proj/books_authors_app/migrations/__pycache__/0003_users.cpython-310.pyc
+ create mode 100644 book_authors_proj/books_authors_app/migrations/__pycache__/0004_book_liked_users.cpython-310.pyc
+ create mode 100644 book_authors_proj/books_authors_app/migrations/__pycache__/0005_author_liked_users.cpython-310.pyc
+ create mode 100644 book_authors_proj/books_authors_app/migrations/__pycache__/0006_book_form_book_genre.cpython-310.pyc
+ create mode 100644 book_authors_proj/books_authors_app/
