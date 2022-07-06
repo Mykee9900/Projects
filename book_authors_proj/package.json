@@ -1,0 +1,14 @@
+{
+  "name": "book_authors_proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scripts": "script"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Mykee",
+  "license": "ISC"
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A book website to all of your needs">
+    <title>Book Lab</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static '../static/css/home.css' %}">
+    <script defer src="{% static '../static/scripts/script.js' %}"></script>       
+    <link rel="icon" type="image/x-icon" href="{% static '../static/images/bIcon.jpg' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="links">
+            <img src="{% static '../static/images/bIcon.jpg' %}" alt="Company logo of a B">
+            <a href="/logOut" target="_blank" id="alert">Logout</a>
+        </div>
+        <h1>Book Lab</h1>
+    </nav>
+    <main>
+        <h1>Success! Welcome, {{ thisUser.first_name }}!</h1>
+        <section class="padd">
+            <div class="books">
+                <h3>Books</h3>
+                <div>
+                    {% for book in favbooks %}
+                        <li>Book title: {{book.title}} <span>  Description: {{book.description}}</span><a href="/book/{{book.id}}/like">{{book.liked_users.count}}</a></li>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="authors">
+                <h3>Authors</h3>
+                <div>
+                    {% for author in favAuthor %}
+                        <li>First Name:{{author.first_name}}<span>  Description: {{author.notes}}</span><a href="/author/{{author.id}}/like">{{author.liked_users.count}}</a></li>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+        <section class="generator">
+            <div class="box">
+                <h3 id="boxW">Book:</h3>
+                <button id="generate">Click Me!</button>
+            </div>
+            <div class="favorite">
+                Your favorite Books
+                <ul>
+                    {% for book in likedBooks %}
+                        <li>Book title: {{book.title}}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright 2022. All right reserved</p>
+        <p>Book Lab</p>
+    </footer>
+</body>
+</html>
