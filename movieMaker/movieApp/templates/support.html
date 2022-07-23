@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Maker</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static '../static/css/support.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Movie Maker</h1>
+        <a href="/index" target="_blank">Home</a>
+    </header>
+    <main>
+        <h3>Reset Password</h3>
+        <form method="POST" action="/update">
+            {% csrf_token %}
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+            <label for="newPassword">Please enter your new Password:</label>
+            <input type="password" id="newPassword" name="newPassword" required minlength="8"><br>
+            <label for="newPasswordC">Confirm new Password</label>
+            <input type="password" id="newPasswordC" name="newPasswordC" required minlength="8"><br>
+            <button>Submit request</button>
+        </form>
+    </main>
+</body>
+</html>

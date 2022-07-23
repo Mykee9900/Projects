@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Maker</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static '../static/css/home.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/869d23ac57.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Movie Maker</h1>
+        <h1>Welcome {{thisUser.first_name}}</h1>
+        <div class="dropdown">
+            <button>More <i class="fa-solid fa-caret-down"></i></button>
+            <div class="dropdownCont">
+                <a href="signOut">Sign Out</a>
+                <a href="/info">info</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="one">
+            <img src="../static/images/popcorn.jpg" alt="popcorn">
+            <div id="search">
+                <h1>Check out Genres</h1>
+                    <div>
+                        <input type="text">
+                        <span id="gen">Genres</span>
+                    </div>
+                <button id="button">Search</button>
+            </div>
+        </section>
+        <section class="list">
+            <h6>Popular Movies</h6>
+            <ul id="movies">
+                <li></li>
+            </ul>
+        </section>
+    </main>
+    <script type="module" src="{% static '../static/scripts/homeScript.js' %}"></script>
+</body>
+</html>

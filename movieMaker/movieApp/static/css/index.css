@@ -1,0 +1,129 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Caveat', cursive;
+}
+
+header div {
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+    color: white;
+}
+
+body {
+    background-color: red;
+    text-align: center;
+}
+
+li {
+    font-size: 1.5rem;
+    color: white;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-top: 10rem;
+}
+
+h3, span {
+    font-size: 2rem;
+}
+.forms {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+label, input {
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+label {
+    font-size: 1.5rem;
+    width: 30%;
+    text-align: right;
+}
+
+label+input {
+    width: 30%;
+    margin: 0 30% 0 4%;
+}
+
+input+input {
+    float: right;
+}
+
+.button {
+    border-radius: 90px;
+    border: solid black 3px;
+    padding: 5px;
+    font-size: 1.4rem;
+    background-color: orangered;
+}
+
+/* Interacts with Login*/
+.button:active {
+    color: white;
+    font-size: .5rem;
+    margin-top: 1.5rem;
+} 
+
+h6 {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    color: white;
+}
+
+h6:hover {
+    color: blue;
+    margin-top: 1.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    height: 100px;
+}
+
+p {
+    font-size: 2rem;
+    color: white;
+}
+
+p:hover {
+    color: blue;
+    margin-top: 1.2rem;
+}
+
+@media only screen and (max-width: 900px) {
+    label, input {
+        font-size: 1rem;
+        display: inline-block;
+    }
+    h6, p {
+        font-size: 1rem;
+    }
+    .button {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    h1 {
+        font-size: 3rem;
+        margin-top: 7rem;
+    }
+    h3, span {
+        font-size: 1.5rem;
+    }
+}

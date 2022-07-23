@@ -1,0 +1,14 @@
+{
+  "name": "moviemaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --reporter list"
+  },
+  "author": "mykee",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}

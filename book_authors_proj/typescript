@@ -852,7 +852,78 @@ Changes not staged for commit:
 	[31mmodified:   book_authors_proj/typescript[m
 
 no changes added to commit (use "git add" and/or "git commit -a")
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit commit -m "made somne   e book_authors_proj/typescript[m
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit commit -m "made somne   e modifications"[?2004l
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .DS_Store[m
+	[31mmodified:   book_authors_proj/typescript[m
 
 no changes added to commit (use "git add" and/or "git commit -a")
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit commit -m "made somne 
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .DS_Store[m
+	[31mmodified:   book_authors_proj/typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   .DS_Store[m
+	[32mmodified:   book_authors_proj/typescript[m
+
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit commit -m "made some mo  changes to project"[?2004l
+[master 6d4c43f] made some changes to project
+ 2 files changed, 59 insertions(+), 4 deletions(-)
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   book_authors_proj/typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit commit -a[?2004l
+hint: Waiting for your editor to close the file... [?1049h[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[24;1H"~/Desktop/Tech/GitProj/.git/COMMIT_EDITMSG" 8L, 229B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H# Please enter the commit message for your changes. Lines starting[2;67H[K[3;1H# with '#' will be ignored, and an empty message aborts the commit.[3;68H[K[4;1H#
+# On branch master
+# Changes to be committed:
+#[7Cmodified:   book_authors_proj/typescript
+#
+[94m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+
+
+
+
+[m# [?25l[24;1H[K[24;1H:[?25hwq[?25l[?2004l[>4;m".git/COMMIT_EDITMSG" 8L, 229B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[KAborting commit due to empty commit message.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit commit -a[?2004l
+hint: Waiting for your editor to close the file... [?1049h[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[29m[m[H[2J[?25l[24;1H"~/Desktop/Tech/GitProj/.git/COMMIT_EDITMSG" 8L, 229B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H# Please enter the commit message for your changes. Lines starting[2;67H[K[3;1H# with '#' will be ignored, and an empty message aborts the commit.[3;68H[K[4;1H#
+# On branch master
+# Changes to be committed:
+#[7Cmodified:   book_authors_proj/typescript
+#
+[94m~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?25h
+[?25l[m[24;1H[97m[41mE78: Unknown mark[m[24;18H[K[2;1H[?25h
+[2;66H
+# w[?25ls[?25h[9C[?25ls[?25hsl[?25l[24;1H[1m-- INSERT --[m[24;13H[K[3;15H[?25h[?25ltl be ignored, and an empty message aborts the commit.[3;16H[?25h[?25l:l be ignored, and an empty message aborts the commit.[3;17H[?25h[?25lwl be ignored, and an empty message aborts the commit.[3;18H[?25h[?25lql be ignored, and an empty message aborts the commit.[3;19H[?25h[?25l[4;23r[4;1H[L[1;24r[3;19H[K[4;1Hl be ignored, and an empty message aborts the commit.[?25h[?25l[5;23r[5;1H[L[1;24r[4;1H[K[5;1Hl be ignored, and an empty message aborts the commit.[?25h[?25lfl be ignored, and an empty message aborts the commit.f[?25h[?25lil be ignored, and an empty message aborts the commit.fi[?25h[?25lrl be ignored, and an empty message aborts the commit.fir[?25h[?25lsl be ignored, and an empty message aborts the commit.firs[?25h[?25ltl be ignored, and an empty message aborts the commit.first[?25h[?25l l be ignored, and an empty message aborts the commit.[5;7H[?25h[?25lcl be ignored, and an empty message aborts the commit.[5;8H[?25h[?25lol be ignored, and an empty message aborts the commit.[5;9H[?25h[?25lml be ignored, and an empty message aborts the commit.[5;10H[?25h[?25lml be ignored, and an empty message aborts the commit.[5;11H[?25h[?25lil be ignored, and an empty message aborts the commit.[5;12H[?25h[?25ltl be ignored, and an empty message aborts the commit.[5;13H[?25h[?25l:l be ignored, and an empty message aborts the commit.[5;14H[?25h[?25ll be ignored, and an empty message aborts the commit.[5;66H[K[5;13H[?25h[24;1H[K[5;12H[?25l[?25h[?25l[24;1H:[?25hwq[?25l[?2004l[>4;m".git/COMMIT_EDITMSG" 10L, 247B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049lerror: There was a problem with the editor 'vi'.
+Please supply the message using either -m or -F option.
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004hggit status[?2004l
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   book_authors_proj/typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004horking directory)
+	[31mmodified:   book_authors_proj/typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                ]7;file://Mykees-MBP.lan/Users/Mikeeee/Desktop/Tech/GitProj[0m[27m[24m[JMikeeee@Mykees-MBP GitProj % [K[?2004h
