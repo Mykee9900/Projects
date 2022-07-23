@@ -90,4 +90,7 @@ def likeAuthor(request, author_id):
 
 
 # Create your views here.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 12ff8be91ac55b3bb6ea6341c822d19c599b8f1c
