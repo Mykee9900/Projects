@@ -1,0 +1,29 @@
+.listBody {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.listHead {
+    margin-bottom: 50px;
+}
+
+ul {
+    display: flex;
+    flex-flow: column;
+}
+
+.listButton {
+    margin-left: 25px;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 550px) {
+    .listHead {
+        margin-bottom: 40px;
+        font-size: 16px;
+    }
+    
+}
