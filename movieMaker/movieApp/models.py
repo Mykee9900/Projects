@@ -26,8 +26,8 @@ class usersManager(models.Manager):
     
     def log_validator(self, postData):
         errors = {}
-        if len(postData['uName']) < 2:
-            errors["uName"] = "Username incorrect!"
+        if len(postData['email']) < 2:
+            errors["email"] = "Email incorrect!"
         if len(postData['password']) < 8:
             errors["password"] = "Password must be at least 8 characters!"
         return errors
@@ -41,7 +41,15 @@ class Users(models.Model):
     email = models.CharField(max_length=150)
     password = models.CharField(max_length=150)
     passwordC = models.CharField(max_length=150)
+    favMovie = models.CharField(max_length=25)
+    profilePicture = models.ImageField(upload_to="images/")
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
     objects = usersManager()
+
+class Movies(models.Model):
+    title = models.CharField(max_length=50)
+    liked_users = models.ManyToManyField(Users, related_name="movies_liked")
+    liked_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)

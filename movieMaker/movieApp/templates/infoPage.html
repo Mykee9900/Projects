@@ -1,29 +1,37 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Maker</title>
-    {% load static %}
+    <title>Movie Page</title>
     <link rel="stylesheet" href="{% static '../static/css/info.css' %}">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/869d23ac57.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>Movie Maker</h1>
+        <h1>Movie Page</h1>
         <div class="dropdown">
-            <button>More <i class="fa-solid fa-caret-down"></i></button>
-            <div class="dropdownCont">
+            <button class="dropbtn">Explore</button>
+            <div class="dropdown-content">
+                <!-- Checks if user is logged in to give out the sign out option -->
+                {% if thisUser%}
                 <a href="signOut">Sign Out</a>
-                <a href="/home">Home</a>
+                <a href="/home" target="_blank">Home</a>
+                {% else %}
+                <a href="/index" target="_blank">Home</a>
+                {% endif %}
             </div>
         </div>
     </header>
     <main>
         <h3>About Us</h3>
-        <p>We are a company who's main goal is to provide a reliable source of movies and make them available for everybody. We are still growing and our website is still new, but soon it will be ready and our goal will be accomplished.</p>
+        <p>This website was created by Mykee Flores. The website was created for learning experience and to showcase my programming skills. Programming languages that were used in this project are Python, JavaScript, Html, and CSS. You can find more information or contact me in the links found in the footer below.</p>
     </main>
+    <footer>
+        <p>Author: Mykee Flores</p>
+        <a href="https://mykee9900.github.io/" target="_blank" ><p>About Me</p><i class="fa-solid fa-globe"></i></a>
+    </footer>
 </body>
 </html>

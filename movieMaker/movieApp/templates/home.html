@@ -1,46 +1,82 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Maker</title>
-    {% load static %}
+    <meta name="description" content="A website that has access to many movies to select from">
+    <title>Movie Page</title>
     <link rel="stylesheet" href="{% static '../static/css/home.css' %}">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/869d23ac57.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>Movie Maker</h1>
+        <h1>Movie Page</h1>
         <h1>Welcome {{thisUser.first_name}}</h1>
         <div class="dropdown">
-            <button>More <i class="fa-solid fa-caret-down"></i></button>
-            <div class="dropdownCont">
+            <button class="dropbtn">Explore</button>
+            <div class="dropdown-content">
                 <a href="signOut">Sign Out</a>
-                <a href="/info">info</a>
+                <a href="/info" target="_blank">info</a>
             </div>
         </div>
     </header>
     <main>
-        <section class="one">
-            <img src="../static/images/popcorn.jpg" alt="popcorn">
-            <div id="search">
-                <h1>Check out Genres</h1>
-                    <div>
-                        <input type="text">
-                        <span id="gen">Genres</span>
-                    </div>
-                <button id="button">Search</button>
+        <section class="movies">
+            <!-- explore section that sends a API request to search movies -->
+            <div class="explore">
+                <div class="search">
+                    <h2>Search A Movie</h2>
+                    <form>
+                        <i class="fa-solid fa-magnifying-glass"><input type="text" id="search" placeholder="Movie Title" ></i>
+                        <button type="button" onclick="searchMovie()">Submit</button>
+                    </form>
+                </div>
+                <div id="movieReults">
+                    <!-- Movie results are displayed here -->
+                    <h2>Search Results</h2>
+                    <div id="results"></div>
+                    
+                </div>
+                </div>
+                <div class="genres">
+                    <!-- section that shows a different list of movies -->
+                    <div id="genreList"></div>
+                    <div id="action"></div>
+                    <div id="animation"></div>
+            </div>
             </div>
         </section>
-        <section class="list">
-            <h6>Popular Movies</h6>
-            <ul id="movies">
-                <li></li>
-            </ul>
+        <section class="profile">
+                <form action="/picture" method="post" class="profileImage" enctype="multipart/form-data">
+                    <!-- A post method to change profile picture -->
+                    {% csrf_token %}
+                    <img src="{{thisUser.profilePicture.url}}" alt="profile picture" id="profilePicture">
+                    <label name="profilePicture" id="profilePicture" name="profilePicture">profilePicture</label>
+                    <input type="file" id="imageInput" name="profilePicture">
+                    <button type="submit" value="submit">Submit</button>
+                </form>
+                <div class="UserInfo">
+                    <p>Full name: {{thisUser.first_name}} {{thisUser.last_name}}</p>
+                <p>Joined on {{thisUser.created_at}}</p>
+                </div>
+                <div id="favMovies">
+                    Favorite Movies
+                    {% for movie in thisUser.movies_liked.all %}
+                    <!-- Shows a list of movies that are favorited by the user and allows to delete favorite movies by the user -->
+                    <div>
+                        <p>{{movie.title}}</p>
+                        <a href="/delete/{{movie.id}}"><button>Delete</button></a>
+                    </div>
+                    {% endfor %}
+                </div>
         </section>
     </main>
-    <script type="module" src="{% static '../static/scripts/homeScript.js' %}"></script>
+    <footer>
+        <p>Author: Mykee Flores</p>
+        <a href="https://mykee9900.github.io/" target="_blank"><p>About Me</p><i class="fa-solid fa-globe"></i></a>
+    </footer>
+    <script src="{% static 'scripts/homeScript.js' %}"></script>
 </body>
 </html>

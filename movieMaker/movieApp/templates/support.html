@@ -1,21 +1,28 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Maker</title>
-    {% load static %}
+    <title>Movie Page</title>
     <link rel="stylesheet" href="{% static '../static/css/support.css' %}">
 </head>
 <body>
     <header>
-        <h1>Movie Maker</h1>
-        <a href="/index" target="_blank">Home</a>
+        <h1>Movie Page</h1>
+        <div class="dropdown">
+            <button class="dropbtn">Explore</button>
+            <div class="dropdown-content">
+                <a href="/logReg">Sign In/Up</a>
+                <a href="/info" target="_blank">About this site</a>
+            </div>
+        </div>
     </header>
     <main>
         <h3>Reset Password</h3>
         <form method="POST" action="/update">
+            <!-- A post method to change users password in database -->
             {% csrf_token %}
             <label for="email">Email:</label>
             <input type="text" id="email" name="email" required>
@@ -23,7 +30,7 @@
             <input type="password" id="newPassword" name="newPassword" required minlength="8"><br>
             <label for="newPasswordC">Confirm new Password</label>
             <input type="password" id="newPasswordC" name="newPasswordC" required minlength="8"><br>
-            <button>Submit request</button>
+            <button class="frmBtn">Submit request</button>
         </form>
     </main>
 </body>

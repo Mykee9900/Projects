@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A website that has access to many movies to select from">
+        <title>Movie Page</title>
+        <link rel="stylesheet" href="{% static 'css/moviePage.css' %}">
+        <script src="https://kit.fontawesome.com/869d23ac57.js" crossorigin="anonymous"></script>
+    </head>
+    </body>
+    <header>
+        <div>
+            Time:
+            <span id="time"></span>
+            <span id="year"></span>
+        </div>
+        <h1>Movie Page</h1>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div id="drpCont"  class="dropdown-content">
+                {% if thisUser %}
+                <!-- Checks if user is logged in to give out the sign out option -->
+                <a href="/signOut">Sign Out</a>
+                <a href="/home" target="_blank">Home</a>
+                <a href="/info">About us</a>
+                {% else %}
+                <a href="/logReg">Sign In/Up</a>
+                <a href="/index" target="_blank">Home Page</a>
+                <a href="/info" target="_blank">About us</a>
+                {% endif %}
+            </div>
+        </div>
+    </header>
+        <main>
+            <!-- display movie info using the movie id -->
+            <h1 id="movId">{{movieID}}</h1>
+            <div id="movieBox"></div>
+            <div id="homeVideo">
+                <iframe id="youtube" width="600" height="400" src=""></iframe>
+            </div>
+        </main>
+        <footer>
+            <p>Author: Mykee Flores</p>
+            <a href="https://mykee9900.github.io/" target="_blank"><p>About Me</p><i class="fa-solid fa-globe"></i></a>
+        </footer>
+        <script type="module" src="{% static 'scripts/moviePageScript.js' %}"></script>
+    </body>
+</html>

@@ -1,0 +1,124 @@
+/* CSS Resets */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Caveat', cursive;
+}
+
+body {
+    background-color: rgb(67, 14, 67);
+    color: rgb(179, 179, 179);
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 5px;
+}
+
+span {
+    font-size: 1.5rem;
+}
+
+header div {
+    left: 2rem;
+    color: white;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-top: 1rem;
+}
+
+.dropbtn {
+    background-color: white;
+    color: rgb(179, 179, 179);
+    padding: 16px;
+    font-size: 1rem;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(179, 179, 179);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: pink;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: pink;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+#movId {
+    display: none;
+}
+
+img {
+    height: 22rem;
+    border: solid 3px white;
+    margin-bottom: 2rem;
+}
+
+.movDetails {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.moveInfo {
+    line-break: auto;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    width: 70rem;
+    text-align: center;
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    height: 100px;
+    border-top: solid 3px;
+    align-items: center;
+}
+
+footer p {
+    font-size: 2rem;
+    color: white;
+}
+
+p:hover {
+    color: blue;
+    margin-top: 1.2rem;
+}

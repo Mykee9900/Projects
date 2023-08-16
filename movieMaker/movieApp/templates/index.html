@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,66 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A website that has access to many movies to select from">
-    <title>Movie Maker</title>
-    {% load static %}
-    <link rel="stylesheet" href="{% static '../static/css/index.css' %}">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <title>Movie Page Index</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
     <script src="https://kit.fontawesome.com/869d23ac57.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <h1>Movie Maker</h1>
         <div>
+            Time:
             <span id="time"></span>
             <span id="year"></span>
         </div>
+        <h1>Movie Page</h1>
+        <div class="dropdown">
+            <button class="dropbtn">Explore</button>
+            <div class="dropdown-content">
+                <a href="/logReg">Sign In/Up</a>
+                <a href="/info" target="_blank">About this site</a>
+            </div>
+        </div>
     </header>
     <main>
-                {% if messages %}
-                <ul class="messages">    
-                {% for message in messages %}    
-                <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>    
-                {% endfor %}
-                </ul>
-                {% endif %}
-    <div class="forms">
-        <div>
-            <h3>Sign Up</h3>
-            <form action="/signLog" method="POST">
-                {% csrf_token %}
-                <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname" placeholder="first name" minlength="2" required><br><br>
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname" placeholder="last name" minlength="2" required><br><br>
-                <label for="uName">User name:</label>
-                <input type="text" id="uName" name="uName" placeholder="username" required><br><br>
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email" placeholder="email" required><br><br>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" minlength="8" required><br><br>
-                <label for="cPassword">Confirm Password:</label>
-                <input type="password" id="cPassword" name="cPassword" required><br><br>
-                <button type="submit" class="button">Register</button>
-            </form>
-        </div>
-        <div>
-            <h3>Log In</h3>
-            <form action="/log" method="POST">
-                {% csrf_token %}
-                <label for="uName">Username:</label>
-                <input type="text" id="uName" name="uName" placeholder="username" required><br><br>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required><br><br>
-                <input type="submit" value="Submit" class="button">
-            </form>
-            <a href="/changeInfo" target="_blank"><h6>Forgot your Username or password?</h6></a>
-        </div>
+    <div class="explore">
+        <div class="movieBoxOne">
+            <!-- Shows current movies that are popular from the movie database -->
+            Check out these popular movies!
+            <div id="subMoviebox"></div>
+        </div>  
+    </div>          
+    <div class="register">
+        <h2>Login or Sign Up to view more movies!</h2>
+        <a href="/logReg"><button><i class="fa-solid fa-user"></i> Register</button></a>
     </div>
     </main>
     <footer>
-        <a href="" id="alert"><p>Foollow us on Facebook</p><i class="fa-brands fa-facebook"></i></a>
-        <a href="" id="alertTwo"><p>Follow us on Twitter</p><i class="fa-brands fa-twitter"></i></a>
+        <p>Author: Mykee Flores</p>
+        <a href="https://mykee9900.github.io/" target="_blank" ><p>About Me</p><i class="fa-solid fa-globe"></i></a>
     </footer>
-    <script type="module" src="{% static '../static/scripts/script.js' %}"></script>
+    <script type="module" src="{% static 'scripts/script.js' %}"></script>
 </body>
 </html>
