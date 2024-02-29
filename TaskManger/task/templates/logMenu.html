@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Task Manager</title>
+        {% load static %}
+        <link rel="stylesheet"  href="{% static 'css/log.css' %}">
+        <script src="https://kit.fontawesome.com/869d23ac57.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="dropdown">Menu
+                    <button class="dropbtn"><i class="fa-solid fa-bars"></i>
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="/">Main</a>
+                        <a href="/reg">register</a>
+                    </div>
+                </div> 
+            </div>
+            <h1>Task Manager</h1>
+        </header>
+        <h2>Log In here</h2>
+        <!-- Shows errors from user login validation -->
+        {% if messages %}
+        <ul class="messages">    
+        {% for message in messages %}    
+        <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>    
+        {% endfor %}
+        </ul>
+        {% endif %}
+        <form action="/LogIn" method="post">
+            {% csrf_token %}
+            <label for="userName">Username</label>
+            <input type="text" placeholder="Username" name="userName" id="userName" required>
+            <label for="password">Password</label>
+            <input type="password" placeholder="Password" name="password" id="password" required>
+            <label for="cPassword">Confirm Password</label>
+            <input type="password" placeholder="Confirm Password" name="cPassword" id="cPassword" required>
+            <input type="submit" class="regBtn">
+        </form>
+        <div class="reg">
+            <p>Dont have a account? Register here.</p>
+            <button class="regBtn"><a href="/reg">Register</a></button>
+        </div>
+    </body>
+</html>

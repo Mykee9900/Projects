@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Task Manager</title>
+        {% load static %}
+        <link rel="stylesheet"  href="{% static 'css/profile.css' %}">
+        <script src="https://kit.fontawesome.com/869d23ac57.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="dropdown">Menu
+                    <button class="dropbtn"><i class="fa-solid fa-bars"></i>
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="created">Home</a>
+                        <a href="/">Log Out</a>
+                    </div>
+                </div> 
+            </div>
+            <h1>Hello {{currentUser.first_Name}}</h1>
+            <h1>Task Manager</h1>
+        </header>
+        <main>
+            <div class="taskRecord">
+                <h2>Stats</h2>
+            {% load custom_filters %}
+                <div>
+                    <p>Number of task completed {{ currentUser.createdTask|count_tasks_by_status:'completed' }}</p>
+                    <p>Number of task to start {{ currentUser.createdTask|count_tasks_by_status:'created' }}</p>
+                    <p>Number of pending task {{ currentUser.createdTask|count_tasks_by_status:'started' }}</p>
+                </div>
+            </div>
+            <!-- profile picture upload has a javascript function validator using the onchange event -->
+            <div class="profile">
+                {% if currentUser.profilePicture %}
+                <form action="/picture" method="post" class="profileImage" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <img src="{{currentUser.profilePicture.url}}" alt="profile picture" id="profilePicture">
+                    <label for="imageInput">Choose a profile picture:</label>
+                    <input type="file" id="imageInput" name="profilePicture" onchange="photoValidator(this)">
+                    <button type="submit" value="submit">Submit</button>
+                </form>
+            {% else %}
+            <form action="/picture" method="post" class="profileImage" enctype="multipart/form-data">
+                {% csrf_token %}
+                <!-- A post method to change profile picture -->
+            <img src="{% static 'media/noImage.jpeg' %}" alt="profile picture" id="profilePicture">
+            <input type="file" id="imageInput" name="profilePicture" onchange="photoValidator(this)">
+            <button type="submit" value="submit">Submit</button>
+            </form>
+            {% endif %}
+                <div class="profileInfo">
+                    <h3>Profile info</h3>
+                    <div class="info">
+                        <h6>Name:</h6>
+                        <p>{{currentUser.first_Name}}</p><p>{{currentUser.last_Name}}</p>
+                    </div>
+                    <div class="info">
+                        <h6>Profile Created:   </h3>
+                        <p>{{currentUser.created_at}} time</p>
+                    </div>
+                    <div class="info">
+                        <h6>Amount of tasks:</h6>
+                        <p>{{ currentUser.createdTask.count }}</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+    <script src="{% static 'scripts/script.js' %}"></script>
+</html>

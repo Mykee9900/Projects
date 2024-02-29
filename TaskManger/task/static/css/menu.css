@@ -1,0 +1,66 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(77, 77, 236);
+    color: white;
+}
+
+header {
+    text-align: center;
+    margin: 100px;
+}
+
+header h1 {
+    font-size: xxx-large;
+}
+
+img {
+    height: 300px;
+    margin-top: 100px;
+}
+
+main {
+    text-align: center;
+}
+
+p {
+    font-size: x-large;
+}
+
+button {
+    border: solid 5px white;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: crimson;
+    margin-top: 70px;
+    width: 200px;
+    height: 80px;
+    font-size: x-large;
+}
+
+button a {
+    text-decoration: none;
+}
+
+button:hover {
+    padding: 5px;
+    font-size: medium;
+}
+
+.log {
+    font-size: medium;
+    margin-top: 30px;
+}
+
+.logBtn    { border: solid 3px white;
+border-radius: 30px;
+padding: 5px;
+background-color: crimson;
+margin-top: 30px;
+width: 100px;
+height: 40px;
+font-size: large;
+}

@@ -49,14 +49,24 @@
             </div>
         </section>
         <section class="profile">
+            {% csrf_token %}
+            {% if thisUser.profilePicture %}
                 <form action="/picture" method="post" class="profileImage" enctype="multipart/form-data">
                     <!-- A post method to change profile picture -->
-                    {% csrf_token %}
-                    <img src="{{thisUser.profilePicture.url}}" alt="profile picture" id="profilePicture">
-                    <label name="profilePicture" id="profilePicture" name="profilePicture">profilePicture</label>
-                    <input type="file" id="imageInput" name="profilePicture">
-                    <button type="submit" value="submit">Submit</button>
+                <img src="{{thisUser.profilePicture.url}}" alt="profile picture" id="profilePicture">
+                <label name="profilePicture" id="profilePicture" name="profilePicture">profilePicture</label>
+                <input type="file" id="imageInput" name="profilePicture">
+                <button type="submit" value="submit">Submit</button>
                 </form>
+            {% else %}
+            <form action="/picture" method="post" class="profileImage" enctype="multipart/form-data">
+                <!-- A post method to change profile picture -->
+            <img src="" alt="profile picture" id="profilePicture">
+            <label name="profilePicture" id="profilePicture" name="profilePicture">profilePicture</label>
+            <input type="file" id="imageInput" name="profilePicture">
+            <button type="submit" value="submit">Submit</button>
+            </form>
+            {% endif %}
                 <div class="UserInfo">
                     <p>Full name: {{thisUser.first_name}} {{thisUser.last_name}}</p>
                 <p>Joined on {{thisUser.created_at}}</p>

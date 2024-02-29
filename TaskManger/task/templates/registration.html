@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Task Manager</title>
+        {% load static %}
+        <link rel="stylesheet"  href="{% static 'css/registration.css' %}">
+        <script src="https://kit.fontawesome.com/869d23ac57.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="dropdown">Menu
+                    <button class="dropbtn"><i class="fa-solid fa-bars"></i>
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="/">Main</a>
+                        <a href="/log">Login</a>
+                    </div>
+                </div> 
+            </div>
+            <h1>Task Manager</h1>
+        </header>
+        <h2>Register here</h2>
+        <!-- shows errors using user registartion validator -->
+        {% if messages %}
+                <ul class="messages">    
+                {% for message in messages %}    
+                <li {% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>    
+                {% endfor %}
+                </ul>
+                {% endif %}
+        <form action="/register" method="post">
+            {% csrf_token %}
+            <label for="userName">Username</label>
+            <input type="text" placeholder="Username" name="userName" id="userName" required>
+            <label for="fName">First Name</label>
+            <input type="text" placeholder="First Name" name="fName" id="fName" required>
+            <label for="lName">Last Name</label>
+            <input type="text" placeholder="Last Name" name="lName" id="lName" required>
+            <label for="password">Password</label>
+            <input type="password" placeholder="Password" name="password" id="password" minlength="5"  required>
+            <label for="cPassword">Confirm Password</label>
+            <input type="password" placeholder="Confirm Password" name="cPassword" id="cPassword"  minlength="5" required>
+            <input type="submit" class="regBtn">
+        </form>
+    </body>
+</html>

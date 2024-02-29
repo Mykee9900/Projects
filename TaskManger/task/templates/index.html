@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Task Manager</title>
+        {% load static %}
+        <link rel="stylesheet"  href="{% static 'css/index.css' %}">
+        <script src="https://kit.fontawesome.com/869d23ac57.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="dropdown">Menu
+                    <button class="dropbtn"><i class="fa-solid fa-bars"></i>
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="profile">Profile</a>
+                        <a href="/">Log Out</a>
+                    </div>
+                </div> 
+            </div>
+            <h1>Task Manager</h1>
+            {% if currentUser.profilePicture %}
+                <img src="{{currentUser.profilePicture.url}}" alt="Profile Picture" class="profilePic">
+                {% else %}
+                <img src="{ %static 'media/noImage.jpeg' % }" alt="Profile Picture">
+            {% endif %}
+        </header>
+        <main>
+            <section class="one">
+                <h2>Hello {{currentUser.first_Name}}</h2>
+                <p>Create a new Task or click on current task to start or finish them.</p>
+                <!-- Main input to create task and includes a click event to drop form -->
+                <button onclick="showForm('taskF')">Create new task</button>
+                <div class="taskForm" id="taskF">
+                    <form action="/createTask" method="post">
+                        {% csrf_token %}
+                        <label for="task">Task</label>
+                        <input type="text" id="task" name="task" placeholder="Task" maxlength="150">
+                        <input type="submit" class="Btn">
+                    </form>
+                    <button class="btnTwo" onclick="hideForm('taskF')">Hide</button>
+                </div>
+            </section>
+            <section>
+                {% load custom_filters %}
+                {% if currentUser.createdTask %}
+                    <div class="taskBox">
+                        <h6>Task completed {{ currentUser.createdTask|count_tasks_by_status:'completed' }}</h6>
+                        <div class="taskLoop">
+                        {% for task in currentUser.createdTask.all %}
+                            {% if task.status == 'completed' %}
+                            <div class="tasks">
+                                <div class="taskInfo">
+                                    <p>{{ task.task_info }}<i class="fa-solid fa-check"></i></p>
+                                    <button class="taskBtn"><a class="linkModify" onclick="showEditForm('{{task.id}}')">Edit</a></button>
+                                    <button class="taskBtn"><a class="linkModify" href="delete/{{task.id}}">Delete</a></button>
+                                </div>
+                                <div class="editForm" id="editTask-{{task.id}}" style="display: none;">
+                                    <form action="/edit/{{task.id}}" method="post">
+                                        {% csrf_token %}
+                                        <label for="task">Task</label>
+                                        <input type="text" id="task" name="task" placeholder="Task" maxlength="150">
+                                        <input type="submit" class="Btn">
+                                    </form>
+                                    <button class="btnTwo" onclick="hideEditForm('{{task.id}}')">Hide</button>
+                                </div>
+                            </div>
+                            {% endif %}
+                        {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+
+                {% if currentUser.createdTask %}
+                <div class="taskBox">
+                    <h6>Task in progress {{ currentUser.createdTask|count_tasks_by_status:'started' }}</h6>
+                    <div class="taskLoop">
+                    {% for task in currentUser.createdTask.all %}
+                        {% if task.status == 'started' %}
+                        <div class="tasks">
+                            <div class="taskInfo">
+                                <p><a href="complete/{{task.id}}">{{ task.task_info }}</a><i class="fa-solid fa-check"></i></p>
+                                <button class="taskBtn"><a class="linkModify" onclick="showEditForm('{{task.id}}')">Edit</a></button>
+                                <button class="taskBtn"><a class="linkModify" href="delete/{{task.id}}">Delete</a></button>
+                            </div>
+                            <div class="editForm" id="editTask-{{task.id}}" style="display: none;">
+                                <form action="/edit/{{task.id}}" method="post">
+                                    {% csrf_token %}
+                                    <label for="task">Task</label>
+                                    <input type="text" id="task" name="task" placeholder="Task" maxlength="150">
+                                    <input type="submit" class="Btn">
+                                </form>
+                                <button class="btnTwo" onclick="hideEditForm('{{task.id}}')">Hide</button>
+                            </div>
+                        </div>
+                        {% endif %}
+                    {% endfor %}
+                    </div>
+                </div>
+            {% endif %}
+                {% if currentUser.createdTask %}
+                    <div class="taskBox">
+                        <h6>Task to be started {{ currentUser.createdTask|count_tasks_by_status:'created' }}</h6>
+                        <div class="taskLoop">
+                            {% for task in currentUser.createdTask.all %}
+                                {% if task.status == 'created' %}
+                                <div class="tasks">
+                                    <div class="taskInfo">
+                                        <p><a href="progressTask/{{task.id}}">{{ task.task_info }}</a><i class="fa-solid fa-check"></i></p>
+                                        <button class="taskBtn"><a class="linkModify" onclick="showEditForm('{{task.id}}')">Edit</a></button>
+                                        <button class="taskBtn"><a class="linkModify" href="delete/{{task.id}}">Delete</a></button>
+                                    </div>
+                                    <div class="editForm" id="editTask-{{task.id}}" style="display: none;">
+                                        <form action="/edit/{{task.id}}" method="post">
+                                            {% csrf_token %}
+                                            <label for="task">Task</label>
+                                            <input type="text" id="task" name="task" placeholder="Task" maxlength="150">
+                                            <input type="submit" class="Btn">
+                                        </form>
+                                        <button class="btnTwo" onclick="hideEditForm('{{task.id}}')">Hide</button>
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+            </section>            
+        </main>
+        <footer>
+            <p>Task Manager</p>
+            <p>Created by Mykee9900</p>
+        </footer>
+    </body>
+    <script src="{% static 'scripts/script.js' %}"></script>
+</html>

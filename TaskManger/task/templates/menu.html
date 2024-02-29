@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Task Manager</title>
+        {% load static %}
+        <link rel="stylesheet"  href="{% static 'css/menu.css' %}">
+        <script src="https://kit.fontawesome.com/869d23ac57.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Task Manager</h1>
+            <img src="{% static 'media/task.webp' %}" alt="icon">
+        </header>
+        <main>
+            <div>
+                <p>Welcome to your Task Manager, Keep up with your daily task. Click the button to get started.</p>
+                <button><a href="/reg">Get Started</a></button>
+            </div>
+            <div>
+                <p class="log">Have a account already? Click this button to login.</p>
+                <button class="logBtn"><a href="/log">Log In</a></button>
+            </div>
+        </main>
+    </body>
+</html>

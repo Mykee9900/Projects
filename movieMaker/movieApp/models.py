@@ -42,7 +42,7 @@ class Users(models.Model):
     password = models.CharField(max_length=150)
     passwordC = models.CharField(max_length=150)
     favMovie = models.CharField(max_length=25)
-    profilePicture = models.ImageField(upload_to="images/")
+    profilePicture = models.ImageField(upload_to="images/", null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
